@@ -1,0 +1,30 @@
+{
+  "name": "node-bmp280",
+  "version": "0.1.0",
+  "description": "Node library for the Bosch Sensortec BME-280 Barometric Pressure Sensor.",
+  "main": "BME280.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aaronj314/node-BME280"
+  },
+  "keywords": [],
+  "author": "Aaron Jones",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaronj314/node-BME280/issues"
+  },
+  "homepage": "https://github.com/aaronj314/node-BME280/readme",
+  "dependencies": {
+    "i2c": "git://github.com/polaris/node-i2c"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "gulp": "^3.9.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-plumber": "^1.0.0",
+    "jshint": "^2.8.0",
+    "mocha": "^2.3.4"
+  }
+}
